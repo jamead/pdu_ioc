@@ -1,0 +1,30 @@
+ChanSub.o: ../ChanSub.c /home/Diag/epics/base-7.0.9/include/cadef.h \
+ /home/Diag/epics/base-7.0.9/include/epicsThread.h \
+ /home/Diag/epics/base-7.0.9/include/libComAPI.h \
+ /home/Diag/epics/base-7.0.9/include/compilerDependencies.h \
+ /home/Diag/epics/base-7.0.9/include/compiler/gcc/compilerSpecific.h \
+ /home/Diag/epics/base-7.0.9/include/os/Linux/osdThread.h \
+ /home/Diag/epics/base-7.0.9/include/libComAPI.h \
+ /home/Diag/epics/base-7.0.9/include/ellLib.h \
+ /home/Diag/epics/base-7.0.9/include/epicsEvent.h \
+ /home/Diag/epics/base-7.0.9/include/os/Linux/osdEvent.h \
+ /home/Diag/epics/base-7.0.9/include/libCaAPI.h \
+ /home/Diag/epics/base-7.0.9/include/caerr.h \
+ /home/Diag/epics/base-7.0.9/include/epicsTypes.h \
+ /home/Diag/epics/base-7.0.9/include/db_access.h \
+ /home/Diag/epics/base-7.0.9/include/epicsTime.h \
+ /home/Diag/epics/base-7.0.9/include/os/Linux/osdTime.h \
+ /home/Diag/epics/base-7.0.9/include/errMdef.h \
+ /home/Diag/epics/base-7.0.9/include/caeventmask.h \
+ /home/Diag/epics/base-7.0.9/include/aSubRecord.h \
+ /home/Diag/epics/base-7.0.9/include/link.h \
+ /home/Diag/epics/base-7.0.9/include/dbDefs.h \
+ /home/Diag/epics/base-7.0.9/include/ellLib.h \
+ /home/Diag/epics/base-7.0.9/include/dbCoreAPI.h \
+ /home/Diag/epics/base-7.0.9/include/epicsMutex.h \
+ /home/Diag/epics/base-7.0.9/include/epicsAssert.h \
+ /home/Diag/epics/base-7.0.9/include/os/Linux/osdMutex.h \
+ /home/Diag/epics/base-7.0.9/include/devSup.h \
+ /home/Diag/epics/base-7.0.9/include/registryFunction.h \
+ /home/Diag/epics/base-7.0.9/include/epicsExport.h \
+ /home/Diag/epics/base-7.0.9/include/shareLib.h

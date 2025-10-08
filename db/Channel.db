@@ -1,0 +1,156 @@
+record(stringout,"$(P)IP:Settings-SP"){
+  field(DTYP,"Soft Channel")
+  field(DESC,"IP Address:Port #")
+}
+
+record(mbbi, "$(P)UDP:Status-I") {
+    field(DESC, "Set CH1 Fault")
+    field(ZRST,"OK")
+    field(ONST,"Socket\nFailed")
+    field(TWST,"Invalid\nAddress")
+    field(THST,"Send\nFailed")
+    field(FRST,"Recv\nFailed")
+    field(ZRVL,"0")
+    field(ONVL,"1")
+    field(TWVL,"2")
+    field(THVL,"3")
+    field(FRVL,"4")
+}
+
+record(longout,"$(P)CH1:State-SP"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH1:State-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longout,"$(P)CH2:State-SP"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH2:State-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longout,"$(P)CH3:State-SP"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH3:State-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longout,"$(P)CH4:State-SP"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH4:State-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longout,"$(P)All:On-SP"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longout,"$(P)All:Off-SP"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(aSub, "$(P)UDPsub-I"){
+    field(SNAM, "ChanSub")
+    field(SCAN, "1 second")
+
+    field(FTA,  "LONG")
+    field(NOA,  "1")
+    field(INPA, "$(P)CH1:State-SP")
+    field(FTB,  "LONG")
+    field(NOB,  "1")
+    field(INPB, "$(P)CH1:State-I")
+    field(FTC,  "LONG")
+    field(NOC,  "1")
+    field(INPC, "$(P)CH2:State-SP")
+    field(FTD,  "LONG")
+    field(NOD,  "1")
+    field(INPD, "$(P)CH2:State-I")
+    field(FTE,  "LONG")
+    field(NOE,  "1")
+    field(INPE, "$(P)CH3:State-SP")
+    field(FTF,  "LONG")
+    field(NOF,  "1")
+    field(INPF, "$(P)CH3:State-I")
+    field(FTG,  "LONG")
+    field(NOG,  "1")
+    field(INPG, "$(P)CH4:State-SP")
+    field(FTH,  "LONG")
+    field(NOH,  "1")
+    field(INPH, "$(P)CH4:State-I")
+    field(FTI,  "LONG")
+    field(NOI,  "1")
+    field(INPI, "$(P)All:On-SP")
+    field(FTJ,  "LONG")
+    field(NOJ,  "1")
+    field(INPJ, "$(P)All:Off-SP")
+    field(FTK,  "STRING")
+    field(NOK,  "20")
+    field(INPK, "$(P)IP:Settings-SP")
+
+    field(FTVA,  "LONG")
+    field(NOVA,  "1")
+    field(OUTA, "$(P)CH1:State-SP PP")
+    field(FTVB,  "LONG")
+    field(NOVB,  "1")
+    field(OUTB, "$(P)CH1:State-I PP")
+    field(FTVC,  "LONG")
+    field(NOVC,  "1")
+    field(OUTC, "$(P)CH2:State-SP PP")
+    field(FTVD,  "LONG")
+    field(NOVD,  "1")
+    field(OUTD, "$(P)CH2:State-I PP")
+    field(FTVE,  "LONG")
+    field(NOVE,  "1")
+    field(OUTE, "$(P)CH3:State-SP PP")
+    field(FTVF,  "LONG")
+    field(NOVF,  "1")
+    field(OUTF, "$(P)CH3:State-I PP")
+    field(FTVG,  "LONG")
+    field(NOVG,  "1")
+    field(OUTG, "$(P)CH4:State-SP PP")
+    field(FTVH,  "LONG")
+    field(NOVH,  "1")
+    field(OUTH, "$(P)CH4:State-I PP")
+    field(FTVI,  "LONG")
+    field(NOVI,  "1")
+    field(OUTI, "$(P)All:On-SP PP")
+    field(FTVJ,  "LONG")
+    field(NOVJ,  "1")
+    field(OUTJ, "$(P)All:Off-SP PP")
+    field(FTVK, "FLOAT")
+    field(NOVK, "20")
+    field(OUTK, "$(P)PDU:Status-Wfm PP")
+    field(FTVL,  "LONG")
+    field(NOVL,  "1")
+    field(OUTL, "$(P)UDP:Status-I PP")
+
+}
+

@@ -1,0 +1,363 @@
+record(waveform,"$(P)PDU:Status-Wfm"){
+  field(DTYP,"Soft Channel")
+  field(DESC,"20 Point Status Array")
+  field(NELM,"22")
+  field(FTVL,"FLOAT")
+  field(FLNK,"$(P)DecodePDUStatus-Sub")
+}
+
+record(longin,"$(P)CH1:Status-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH1:Relay-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH1:AuxContactor-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH1:Front:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH1:Rear:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH1:IOC:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH2:Status-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH2:Relay-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH2:AuxContactor-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH2:Front:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH2:Rear:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH2:IOC:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH3:Status-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH3:Relay-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH3:AuxContactor-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH3:Front:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH3:Rear:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH3:IOC:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH4:Status-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH4:Relay-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH4:AuxContactor-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH4:Front:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH4:Rear:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)CH4:IOC:Enable-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(ai,"$(P)Current:PhaseA-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+  field(EGU,'A')
+  field(PREC,'1')
+}
+
+record(ai,"$(P)Current:PhaseB-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+  field(EGU,'A')
+  field(PREC,'1')
+}
+
+record(ai,"$(P)Current:PhaseC-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+  field(EGU,'A')
+  field(PREC,'1')
+}
+
+record(ai,"$(P)Temp:Front-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+  field(EGU,'C')
+  field(PREC,'1')
+}
+
+record(ai,"$(P)Temp:Rear-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+  field(EGU,'C')
+  field(PREC,'1')
+}
+
+record(longin,"$(P)Frame:Start-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)Frame:End-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)Serial:Number-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)Model:Number-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)Firmware:Version-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(longin,"$(P)Watchdog:Flag-I"){
+  field(DTYP,"Soft Channel")
+  field(VAL,-1)
+  field(UDF,-1)
+}
+
+record(aSub, "$(P)DecodePDUStatus-Sub"){
+    field(SNAM, "StatusSub")
+
+    field(FTA,  "FLOAT")
+    field(NOA,  "20")
+    field(INPA, "$(P)PDU:Status-Wfm")
+    field(FLNK, "$(P)DecodeChanStatus-Sub")
+
+    field(FTVA,  "LONG")
+    field(NOVA,  "1")
+    field(OUTA, "$(P)Frame:Start-I PP")
+    field(FTVB,  "FLOAT")
+    field(NOVB,  "1")
+    field(OUTB, "$(P)Current:PhaseA-I PP")
+    field(FTVC,  "FLOAT")
+    field(NOVC,  "1")
+    field(OUTC, "$(P)Current:PhaseB-I PP")
+    field(FTVD,  "FLOAT")
+    field(NOVD,  "1")
+    field(OUTD, "$(P)Current:PhaseC-I PP")
+    field(FTVE,  "LONG")
+    field(NOVE,  "1")
+    field(OUTE, "$(P)CH1:Status-I PP")
+    field(FTVF,  "LONG")
+    field(NOVF,  "1")
+    field(OUTF, "$(P)CH2:Status-I PP")
+    field(FTVG,  "LONG")
+    field(NOVG,  "1")
+    field(OUTG, "$(P)CH3:Status-I PP")
+    field(FTVH,  "LONG")
+    field(NOVH,  "1")
+    field(OUTH, "$(P)CH4:Status-I PP")
+    field(FTVI,  "FLOAT")
+    field(NOVI,  "1")
+    field(OUTI, "$(P)Temp:Front-I PP")
+    field(FTVJ,  "FLOAT")
+    field(NOVJ,  "1")
+    field(OUTJ, "$(P)Temp:Rear-I PP")
+    field(FTVK,  "LONG")
+    field(NOVK,  "1")
+    field(OUTK, "$(P)Serial:Number-I PP")
+    field(FTVL,  "LONG")
+    field(NOVL,  "1")
+    field(OUTL, "$(P)Model:Number-I PP")
+    field(FTVM,  "LONG")
+    field(NOVM,  "1")
+    field(OUTM, "$(P)Firmware:Version-I PP")
+    field(FTVN,  "LONG")
+    field(NOVN,  "1")
+    field(OUTN, "$(P)Watchdog:Flag-I PP")
+    field(FTVO,  "LONG")
+    field(NOVO,  "1")
+    field(OUTO, "$(P)Frame:End-I PP")
+}
+
+record(aSub, "$(P)DecodeChanStatus-Sub"){
+    field(SNAM, "ChanStatus")
+
+    field(FTA,  "LONG")
+    field(NOA,  "1")
+    field(INPA, "$(P)CH1:Status-I")
+    field(FTB,  "LONG")
+    field(NOB,  "1")
+    field(INPB, "$(P)CH2:Status-I")
+    field(FTC,  "LONG")
+    field(NOC,  "1")
+    field(INPC, "$(P)CH3:Status-I")
+    field(FTD,  "LONG")
+    field(NOD,  "1")
+    field(INPD, "$(P)CH4:Status-I")
+
+    field(FTVA,  "LONG")
+    field(NOVA,  "1")
+    field(OUTA, "$(P)CH1:IOC:Enable-I PP")
+    field(FTVB,  "LONG")
+    field(NOVB,  "1")
+    field(OUTB, "$(P)CH1:Front:Enable-I PP")
+    field(FTVC,  "LONG")
+    field(NOVC,  "1")
+    field(OUTC, "$(P)CH1:Rear:Enable-I PP")
+    field(FTVD,  "LONG")
+    field(NOVD,  "1")
+    field(OUTD, "$(P)CH1:Relay-I PP")
+    field(FTVE,  "LONG")
+    field(NOVE,  "1")
+    field(OUTE, "$(P)CH1:AuxContactor-I PP")
+
+    field(FTVF,  "LONG")
+    field(NOVF,  "1")
+    field(OUTF, "$(P)CH2:IOC:Enable-I PP")
+    field(FTVG,  "LONG")
+    field(NOVG,  "1")
+    field(OUTG, "$(P)CH2:Front:Enable-I PP")
+    field(FTVH,  "LONG")
+    field(NOVH,  "1")
+    field(OUTH, "$(P)CH2:Rear:Enable-I PP")
+    field(FTVI,  "LONG")
+    field(NOVI,  "1")
+    field(OUTI, "$(P)CH2:Relay-I PP")
+    field(FTVJ,  "LONG")
+    field(NOVJ,  "1")
+    field(OUTJ, "$(P)CH2:AuxContactor-I PP")
+
+    field(FTVK,  "LONG")
+    field(NOVK,  "1")
+    field(OUTK, "$(P)CH3:IOC:Enable-I PP")
+    field(FTVL,  "LONG")
+    field(NOVL,  "1")
+    field(OUTL, "$(P)CH3:Front:Enable-I PP")
+    field(FTVM,  "LONG")
+    field(NOVM,  "1")
+    field(OUTM, "$(P)CH3:Rear:Enable-I PP")
+    field(FTVN,  "LONG")
+    field(NOVN,  "1")
+    field(OUTN, "$(P)CH3:Relay-I PP")
+    field(FTVO,  "LONG")
+    field(NOVO,  "1")
+    field(OUTO, "$(P)CH3:AuxContactor-I PP")
+
+    field(FTVP,  "LONG")
+    field(NOVP,  "1")
+    field(OUTP, "$(P)CH4:IOC:Enable-I PP")
+    field(FTVQ,  "LONG")
+    field(NOVQ,  "1")
+    field(OUTQ, "$(P)CH4:Front:Enable-I PP")
+    field(FTVR,  "LONG")
+    field(NOVR,  "1")
+    field(OUTR, "$(P)CH4:Rear:Enable-I PP")
+    field(FTVS,  "LONG")
+    field(NOVS,  "1")
+    field(OUTS, "$(P)CH4:Relay-I PP")
+    field(FTVT,  "LONG")
+    field(NOVT,  "1")
+    field(OUTT, "$(P)CH4:AuxContactor-I PP")
+}
